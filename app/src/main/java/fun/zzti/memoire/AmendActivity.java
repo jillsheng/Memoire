@@ -22,14 +22,8 @@ import java.util.Date;
 import fun.zzti.memoire.database.MyDB;
 import fun.zzti.memoire.enity.Record;
 
-/**
- * create_by Android Studio
- *
- * @author zouguo0212@
- * @package_name fun.zzti
- * @description
- * @date 2018/10/27 13:20
- */
+
+
 public class AmendActivity extends BaseActivity implements View.OnClickListener{
 
     private final static String TAG = "AmendActivity";

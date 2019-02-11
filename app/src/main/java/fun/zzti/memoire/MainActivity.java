@@ -32,28 +32,33 @@ import static fun.zzti.memoire.util.MyFormat.*;
 
 
 
-/**
- * create_by Android Studio
- *
- * @author zouguo0212@
- * @package_name fun.zzti
- * @description
- * @date 2018/10/26 17:30
- */
 public class MainActivity extends BaseActivity implements View.OnClickListener,
         AdapterView.OnItemClickListener,AdapterView.OnItemLongClickListener{
-
+    private Intent intent;
     private final static String TAG = "MainActivity";
 
     MyDB myDB;
     private ListView myListView;
     private Button createButton;
+    private Button waitEvent;
     private MyBaseAdapter myBaseAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_linear_layout);
+        Button button = (Button) findViewById(R.id.waitEvent);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, alarmActivity.class);
+                startActivity(intent);
+
+
+
+            }
+        });
+
         init();
     }
 

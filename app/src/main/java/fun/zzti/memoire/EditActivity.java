@@ -32,14 +32,7 @@ import fun.zzti.memoire.util.MyTimeGetter;
 
 import static fun.zzti.memoire.util.MyFormat.*;
 
-/**
- * create_by Android Studio
- *
- * @author zouguo0212@
- * @package_name fun.zzti
- * @description
- * @date 2018/10/26 17:30
- */
+
 @RequiresApi(api = Build.VERSION_CODES.N)
 public class EditActivity extends BaseActivity implements View.OnClickListener,
         DatePickerDialog.OnDateSetListener,

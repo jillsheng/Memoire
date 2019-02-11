@@ -1,15 +1,16 @@
 <resources>
-    <string name="app_name">Memoire</string>
-    <string name="title_name">备忘录</string>
-    <string name="create_button_name">+\n新建</string>
-    <string name="text_tile">标题：</string>
-    <string name="edit_hint">请输入标题</string>
+    <string name="app_name">Are you working hard today? </string>
+    <string name="title_name">Schedule</string>
+    <string name="create_button_name">+\n new</string>
+    <string name="text_tile">tittle：</string>
+    <string name="edit_hint">Please enter a title</string>
     <string name="button_back">＜</string>
     <string name="button_save">√</string>
-    <string name="edit_body_hint">请输入内容...</string>
-    <string name="edit_title_time_hint">这里显示时间</string>
-    <string name="edit_title_text">新建备忘录</string>
-    <string name="str_upcoming">待办</string>
-    <string name="str_notice">提醒</string>
-    <string name="other_operation">其他选项：</string>
+    <string name="edit_body_hint">Please enter the content...</string>
+    <string name="edit_title_time_hint">Show time here</string>
+    <string name="edit_title_text">New memo</string>
+    <string name="str_upcoming">Upcoming</string>
+    <string name="str_notice">Alarm</string>
+    <string name="other_operation">other operation：</string>
+    <string name="wait_event">Wait</string>
 </resources>

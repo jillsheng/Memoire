@@ -12,11 +12,19 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".EditActivity"/>
-        <activity android:name=".AmendActivity"/>
+        <activity android:name=".EditActivity" />
+        <activity android:name=".AmendActivity" />
+        <activity android:name=".alarmActivity" />
+
+        <service android:name=".LongRunningService"></service>
+
+        <receiver android:name=".AlarmReceiver"></receiver>
+
+
     </application>
 
 </manifest>

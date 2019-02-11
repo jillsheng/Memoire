@@ -1,13 +1,6 @@
 package fun.zzti.memoire.enity;
 
-/**
- * create_by Android Studio
- *
- * @author zouguo0212@
- * @package_name fun.zzti.enity
- * @description
- * @date 2018/10/26 19:11
- */
+
 public class Record {
     private Integer id;
     private String titleName;

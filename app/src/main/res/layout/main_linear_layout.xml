@@ -5,6 +5,15 @@
     android:orientation="vertical"
     android:background="#fffff0"
     >
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/ic_launcher"
+        />
+
     <RelativeLayout
         android:id="@+id/body"
         android:layout_width="match_parent"
@@ -33,9 +42,23 @@
             android:layout_centerVertical="true"
             android:text="@string/create_button_name"
             android:textSize="20sp"
+            android:layout_alignParentLeft="true"
             android:layout_centerInParent="true"
             android:layout_alignParentBottom="true"
+            android:background="@color/a"
             />
+
+        <Button
+            android:id="@+id/waitEvent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/wait_event"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/b"/>
     </RelativeLayout>
 
 
